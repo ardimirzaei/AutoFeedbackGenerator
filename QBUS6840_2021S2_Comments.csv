@@ -1,0 +1,42 @@
+﻿Category,CatLongName,ShortName,Comment,Value,MaxCatMarks
+Task 1,Best out-of-sample RMSE,All Three Missing,-2 You should repoprt out-of-sample forecast error (MSE) of three candidate models,-2,2
+Task 1,Best out-of-sample RMSE,One Missing,-1 You should repoprt out-of-sample forecast error (MSE) of three candidate models. You report only two.,-1,2
+Task 1,Best out-of-sample RMSE,Two Missing,-1.5 You should repoprt out-of-sample forecast error (MSE) of three candidate models. You report only one.,-1.5,2
+Task 2,"Introduction, business context",Business context needs more info (-3),-3 The discussion on the business context should be more informative.,-3,5
+Task 2,"Introduction, business context",Business context needs more info (-2),-2 The discussion on the business context should be more informative.,-2,5
+Task 2,"Introduction, business context",Business context needs more info (-1),-1 The discussion on the business context should be more informative.,-1,5
+Task 3,Data pre-processing EDA,Check Missing Values (-1),"-1 In the EDA step, it is important to check if there are any missing values in the data. This could help to avoid some potential issues in later steps. You should mention this step in the report.",-1,10
+Task 3,Data pre-processing EDA,Handle Missing Values (-0.5),-0.5 It is good that you have discussed if there are any missing values in the data but it also important to mention how did you handle the missing values.,-0.5,10
+Task 3,Data pre-processing EDA,Seasonal Period (-1),"-1 It is not clear in the report that how did you set the seasonal period to be xxx. As this is an important information, your choice of a particular value should be more convincing.",-1,10
+Task 3,Data pre-processing EDA,Log Transformation Justification Missing (-0.25),-0.25 Justification on applying log transformation to the original time series is not quite convincing,-0.25,10
+Task 3,Data pre-processing EDA,Time Series Discussion Uninformative (-0.5),-0.5 Discussion on important properties of the time series is not quite informative and should be more comprehensive.,-0.5,10
+Task 3,Data pre-processing EDA,Time Series Properties needs depth (-0.5),"-0.5 In the EDA step, discussion on important properties of the time series should be more in-depth.",-0.5,10
+Task 3,Data pre-processing EDA,Time Series Statistics discussion (-1),"-1 In the EDA step, discussion on statistics of the time series should be included as it would help to select good candidate models",-1,10
+Task 3,Data pre-processing EDA,Import behaviours from plot (-2),"-2 Given the plot of the time series, a discussion on some important behaviors, e.g. trend, seasonality, etc. should be included in the EDA step.",-2,10
+Task 3,Data pre-processing EDA,Descriptive Stats Discussion (-1),"-1 It should be useful to discussion some important descriptive statistics of the dataset, e.g. min, max, skewness, kurtosis, etc.",-1,10
+Task 3,Data pre-processing EDA,Discuss Important Stats (-1),-1 Discussion on important properties of the time series is not quite informative and should be more comprehensive. It is useful to use domain knowledge to analyze some behaviors of the time series.,-1,10
+Task 3,Data pre-processing EDA,Discuss Stationarity in EDA (-3),-3 The EDA step should discuss the stationarity of the time series as it could help to select the appropreated models for the time series.,-3,10
+Task 4,Methodology and forecasting results ,Model Choice (-2),-2 Your explanation on the reason of choosing a particular model is not quite convincing or not carefully discussed. The connection of EDA and model selection steps should be more clear.,-2,40
+Task 4,Methodology and forecasting results ,Rescaling for NN (-3),-3 For NN method you have to do normalization and re-scaling step to transform the forecast back to the original scale,-3,40
+Task 4,Methodology and forecasting results ,Validaiton Size Justification (-2),-2 Justification on the size of validation set is not well-documented or carefully discussed.,-2,40
+Task 4,Methodology and forecasting results ,Train/Test Split Not Well Documented (-1),"-1 It should be clear from the beginning of the model selection part that you have to use the same train/validation split for all models. However, that step is not well-documented in your report.",-1,40
+Task 4,Methodology and forecasting results ,Use same validation data (-2),-3 The models should be evaluated using the same validation data. It is not quite right to use 16 data points for the decomposition model but 15 data points for the others.,-3,40
+Task 4,Methodology and forecasting results ,Use All Training Data (-2),"-2 Once you have selected the final model, it would be better to retrain the model using entire training data (without validation data) to maximize the in-sample information. You should mention this step in the report.",-2,40
+Task 4,Methodology and forecasting results ,Report Parameters (-1),-1 It would be useful to report the parameters after training the (simple) candidate models. This would help to quickly evaluate your training results.,-1,40
+Task 4,Methodology and forecasting results ,Holt Winters needs training from beginning (-5),"-5 For Holt's Winter models, you should run the trained model from beginning to obtain the forecast values. Or you should clearly state the initial values if you start from T+1",-5,40
+Task 5,"Final analysis, conclusion ",Analysis not well documented (-0.5),"-0.5 Analysis on the result is not well-documented. For example, why is the selected model better than the others? How to improve the results? Is there any chance of overfitting/underfitting?",-0.5,3
+Task 5,"Final analysis, conclusion ",Analysis needs to be more comprehensive (-0.5),-0.5 Analysis on the result should be more comprehensive and informative,-0.5,3
+Task 5,"Final analysis, conclusion ",Adv/Disadv discussion (-0.5),-0.5 Discussion on the advantages and disadvantages of a model should be more directed to the predictive results of candidate models.,-0.5,3
+Presentation,Report Presentation,Poor Implementation Logic (-0.5),-0.5 In general the report needs to be improved as it poorly explains the implementation logic.,-0.5,5
+Presentation,Report Presentation,Figures uniformative (-0.5),"-0.5 It is important to make all figures in your report more informative, e.g. figure with labels, title, legend, etc.",-0.5,5
+Presentation,Report Presentation,Inappropriate Captions (-0.5),-0.5 It is important to put appropriate captions on the tables as it could help your analysis be more clear.,-0.5,5
+Presentation,Report Presentation,Inconsistent Font Size (-0.5),-0.5 The font size should be consistent across the report. You should also number all model equations in the report.,-0.5,5
+Presentation,Report Presentation,Figure Texts Small (-0.5),-0.5 It could be better if all of the texts within figures are larger.,-0.5,5
+Presentation,Report Presentation,Figure NN References (-0.25),"-0.25 When you decide to re-use figures (e.g. Neural network) from a reference (e.g. a journal, a website) please cite the reference",-0.25,5
+Presentation,Report Presentation,Figure Number (-0.5),-0.5 You should number all the figures in the report as it could help reference the figures easier.,-0.5,5
+Presentation,Report Presentation,Figures Not Well Presented (-0.5),-0.5 Figures are not well-presented. You should include clear figures with readable texts and informative captions. Figure size should be consistent across the report.,-0.5,5
+Presentation,Report Presentation,Use Tables (-0.5),-0.5 It would be better to use more tables to make your analysis more readable,-0.5,5
+Presentation,Report Presentation,Table instead of code snapshot (-0.5),-0.5 The report could be improved by using more tables to compare between models or to report the results. You should not use code snapshots to present the tabular results.,-0.5,5
+Presentation,Report Presentation,Model Equation Poorly Written,-0.5 Model equation is not carefully written. You should not use image snapshots with unclear text to discuss equations in a technical report.,-0.5,5
+Presentation,Report Presentation,Report Structure Has decomp in EDA (-0.5),"-0.5 The report's structure is hard to follow and can be improved. For example, why did you put the decomposition model in the EDA section? You should treat the decomposition model as other candidate models.",-0.5,5
+Presentation,Report Presentation,Report Structure hard to follow (-0.5),-0.5 The report's structure is hard to follow and can be improved.,-0.5,5
