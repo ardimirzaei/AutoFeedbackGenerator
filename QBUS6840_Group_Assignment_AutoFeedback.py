@@ -13,7 +13,7 @@ import pandas as pd
 
 #%%
 window = tk.Tk()
-window.title('My Window')
+window.title('QBUS6840 - AutoFeedback')
 window.geometry('300x1280')
 
 df = pd.read_csv("https://raw.githubusercontent.com/ardimirzaei/AutoFeedbackGenerator/main/QBUS6840_2021S2_Comments.csv")
