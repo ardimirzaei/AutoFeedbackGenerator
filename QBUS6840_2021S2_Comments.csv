@@ -1,7 +1,7 @@
 Category,CatLongName,ShortName,Comment,Value,MaxCatMarks
-Task 1,Best out-of-sample RMSE,One Missing,-1 You should repoprt out-of-sample forecast error (MSE) of three candidate models. You report only two.,-1,2
-Task 1,Best out-of-sample RMSE,Two Missing,-1.5 You should repoprt out-of-sample forecast error (MSE) of three candidate models. You report only one.,-1.5,2
-Task 1,Best out-of-sample RMSE,All Three Missing,-2 You should repoprt out-of-sample forecast error (MSE) of three candidate models,-2,2
+Task 1,Best out-of-sample RMSE,One Missing (-1),-1 You should repoprt out-of-sample forecast error (MSE) of three candidate models. You report only two.,-1,2
+Task 1,Best out-of-sample RMSE,Two Missing (-1.5),-1.5 You should repoprt out-of-sample forecast error (MSE) of three candidate models. You report only one.,-1.5,2
+Task 1,Best out-of-sample RMSE,All Three Missing (-2),-2 You should repoprt out-of-sample forecast error (MSE) of three candidate models,-2,2
 Task 2,"Introduction, business context",Business context needs more info (-3),-3 The discussion on the business context should be more informative.,-3,5
 Task 2,"Introduction, business context",Business context needs more info (-2),-2 The discussion on the business context should be more informative.,-2,5
 Task 2,"Introduction, business context",Business context needs more info (-1),-1 The discussion on the business context should be more informative.,-1,5
