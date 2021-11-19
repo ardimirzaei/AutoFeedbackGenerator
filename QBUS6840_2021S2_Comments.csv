@@ -40,3 +40,4 @@ Presentation,Report Presentation,Table instead of code snapshot (-0.5),-0.5 The 
 Presentation,Report Presentation,Model Equation Poorly Written (-0.5),-0.5 Model equation is not carefully written. You should not use image snapshots with unclear text to discuss equations in a technical report.,-0.5,5
 Presentation,Report Presentation,Report Structure Has decomp in EDA (-0.5),"-0.5 The report's structure is hard to follow and can be improved. For example, why did you put the decomposition model in the EDA section? You should treat the decomposition model as other candidate models.",-0.5,5
 Presentation,Report Presentation,Report Structure hard to follow (-0.5),-0.5 The report's structure is hard to follow and can be improved.,-0.5,5
+Presentation,Report Presentation,Poor Grammar and Spelling (-1),-1 The report contains grammatical and spelling errors.,-1,5
