@@ -30,7 +30,7 @@ Task 5,"Final analysis, conclusion ",Analysis needs to be more comprehensive (-0
 Task 5,"Final analysis, conclusion ",Adv/Disadv discussion (-0.5),-0.5 Discussion on the advantages and disadvantages of a model should be more directed to the predictive results of candidate models.,-0.5,3
 Presentation,Report Presentation,Poor Implementation Logic (-0.5),-0.5 In general the report needs to be improved as it poorly explains the implementation logic.,-0.5,5
 Presentation,Report Presentation,Figures uniformative (-0.5),"-0.5 It is important to make all figures in your report more informative, e.g. figure with labels, title, legend, etc.",-0.5,5
-Presentation,Report Presentation,Inappropriate Captions (-0.5),-0.5 It is important to put appropriate captions on the tables as it could help your analysis be more clear.,-0.5,5
+Presentation,Report Presentation, Table Inappropriate Captions (-0.5),-0.5 It is important to put appropriate captions on the tables as it could help your analysis be more clear.,-0.5,5
 Presentation,Report Presentation,Inconsistent Font Size (-0.5),-0.5 The font size should be consistent across the report. You should also number all model equations in the report.,-0.5,5
 Presentation,Report Presentation,Figure Texts Small (-0.5),-0.5 It could be better if all of the texts within figures are larger.,-0.5,5
 Presentation,Report Presentation,Figure NN References (-0.25),"-0.25 When you decide to re-use figures (e.g. Neural network) from a reference (e.g. a journal, a website) please cite the reference",-0.25,5
