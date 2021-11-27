@@ -21,7 +21,7 @@ warnings.filterwarnings('ignore')
 
 #%%
 browser = webdriver.Chrome()
-browser.get('https://canvas.sydney.edu.au/courses/37425/gradebook/speed_grader?assignment_id=335732&student_id=293547')
+browser.get('https://canvas.sydney.edu.au/courses/37425/gradebook/speed_grader?assignment_id=335732')
 
 
 #%%
